@@ -10,7 +10,7 @@ gem "jetpacker"
 gem "mysql2", "~> 0.5.3"
 
 gem "dynomite"
-gem "zeitwerk", "~> 2.5.0"
+gem "zeitwerk", ">= 2.5.0"
 
 # development and test groups are not bundled as part of the deployment
 group :development, :test do

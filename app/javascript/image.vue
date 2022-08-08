@@ -13,7 +13,7 @@
 export default {
   data: function () {
     return {
-      message: "Hello Vue3!"
+      message: "Hello Vue!"
     }
   }
 }
