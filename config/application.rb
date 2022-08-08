@@ -62,4 +62,6 @@ Jets.application.configure do
   # testing suite output readable.
   # config.logger = Jets::Logger.new($stderr)
 
+  # config.asset_host = ENV['ASSET_HOST']
+  # config.asset_host = "http://localhost:8888"
 end
