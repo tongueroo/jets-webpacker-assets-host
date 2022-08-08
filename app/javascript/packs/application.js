@@ -15,6 +15,17 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+//Add images
+require.context('../../assets/images', true);
+const images = require.context('../../assets/images', true);
+
+Vue.mixin({
+  methods: {
+    imagePath: function (name) {
+      return images(name, true);
+    },
+  },
+});
 
 import Rails from "@rails/ujs"
 Rails.start()

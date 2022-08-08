@@ -9,6 +9,7 @@
   <title>Jets App</title>
   <%= javascript_pack_tag "application" %>
   <%= stylesheet_pack_tag "theme" %>
+  <%= javascript_pack_tag 'image_demo' %>
   <link rel="shortcut icon" href="<%= favicon_path %>">
 </head>
 <body>
@@ -16,6 +17,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-9 content-body">
+        <div id='imagedemo'>
+          <app></app>
+        </div>
+
         <% if @title %><h1><%= @title %></h1><% end %>
         <%= yield %>
       </div>
