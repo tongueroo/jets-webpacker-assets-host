@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "private": true,
+  "dependencies": {
+    "@rails/ujs": "^7.0.3-1",
+    "@rails/webpacker": "^5.4.3",
+    "@rubyonjets/ujs-compat": "^1.0.4",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "postcss-cssnext": "^3.1.1",
+    "webpack": "^5.74.0"
+  }
+}
